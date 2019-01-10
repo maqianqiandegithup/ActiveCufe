@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActiveCufe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string-array name="hobby">
+        <item >统计学</item>
+        <item >系统分析与设计</item>
+        <item >数据结构</item>
+       <item >信息安全</item>
+        <item >计量经济学</item>
+       <item >网络营销</item>
+        <item >双学位</item>
+        <item >模特</item>
+        <item >魔术</item>
+        <item >乒乓球</item>
+        <item >电影</item>
+        <item >乐队</item>
+        <item >实习</item>
+        <item >股票证券</item>
+        <item >统计分析</item>
+        <item >数学</item>
+        <item >税务</item>
+        <item >实践</item>
+        <item >金融</item>
+        <item >会计</item>
+        <item >模联</item>
+        <item >交流</item>
+        <item >法学</item>
+        <item >电商</item>
+        <item >合气道</item>
+        <item >国际</item>
+        <item >论坛</item>
+        <item >社会调查</item>
+        <item >创新创业</item>
+        <item >日文化</item>
+        <item >谈判</item>
+        <item >商务</item>
+        <item >财经洞察</item>
+        <item >音乐</item>
+        <item >摄影</item>
+        <item >管理</item>
+        <item >手工</item>
+        <item >动漫</item>
+        <item >乐器</item>
+        <item >书法绘画</item>
+        <item >读书、小说</item>
+        <item >经济</item>
+        <item >礼仪</item>
+        <item >时尚</item>
+        <item >公益志愿</item>
+        <item >校友</item>
+         <item >相声</item>
+        <item >环保</item>
+        <item >棋牌</item>
+        <item >游戏</item>
+        <item >文学</item>
+        <item >舞蹈</item>
+        <item >心理</item>
+        <item >英语</item>
+        <item >奇幻</item>
+        <item >运动</item>
+        <item >武术</item>
+        
+       
+  
+    </string-array>
+
+</resources>

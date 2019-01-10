@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/tianbeijin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.48"
+            android:background="@drawable/biankuang2"
+            android:padding="6dp"
+            android:text="欢迎你的到来"
+            android:textColor="#000"
+            android:textSize="23dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/tuanzi1" />
+    </LinearLayout>
+
+      <Button
+             android:onClick="allshetuan"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/biankuang"
+            android:drawableLeft="@drawable/huizong"
+            android:layout_marginTop="50sp"
+              android:text="点我，查看所有社团"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+       <Button
+                  android:onClick="pingji"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="20sp"
+              android:background="@drawable/biankuang"
+            android:drawableLeft="@drawable/pingji"
+            android:text="点我，看出社团评级"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+         <Button
+               android:onClick="baituan"
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:layout_marginLeft="5sp"
+             android:layout_marginTop="20sp"
+              android:background="@drawable/biankuang"
+             android:drawableLeft="@drawable/baike"
+            
+             android:paddingBottom="5dp"
+             android:paddingLeft="5dp"
+             android:paddingRight="5dp"
+             android:paddingTop="5dp"
+             android:text="点我，了解百团大战"
+             android:textColor="#000"
+             android:textSize="25sp" />
+         
+         <Button
+               android:onClick="pingjia"
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:layout_marginLeft="5sp"
+             android:layout_marginTop="20sp"
+              android:background="@drawable/biankuang"
+             android:drawableLeft="@drawable/tieba"
+             android:paddingBottom="5dp"
+             android:paddingLeft="5dp"
+             android:paddingRight="5dp"
+             android:paddingTop="5dp"
+             android:text="点我，参与社团贴吧"
+             android:textColor="#000"
+             android:textSize="25sp" />
+    
+    
+
+</LinearLayout>

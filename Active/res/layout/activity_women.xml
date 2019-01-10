@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/beijing8">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+        
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.48"
+            android:background="@drawable/biankuang4"
+            android:padding="6dp"
+            android:text="我是你的好朋友"
+            android:textColor="#000"
+            android:textSize="23dp" />
+         <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/tuanzi3" />
+
+       
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal" >
+      
+    <Button
+             android:onClick="lianxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+                android:layout_marginRight="20sp"
+       
+            android:background="@drawable/biankuang"
+            android:drawableTop="@drawable/dianhua"
+            android:layout_marginTop="50sp"
+              android:text="联系我们"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000"
+            android:textSize="15sp" />
+     
+
+       <Button
+             android:onClick="yijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/biankuang"
+                android:layout_marginRight="20sp"
+       
+            android:drawableTop="@drawable/jianyi"
+            android:layout_marginTop="50sp"
+              android:text="意见建议"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="15sp" />
+     
+         
+        
+    
+      </LinearLayout>
+
+</LinearLayout>

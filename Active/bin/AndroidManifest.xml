@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mqq.activecufe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tuanzi"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mqq.activecufe.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.mqq.activecufe.Huanying"
+            ></activity>
+        <activity 
+            android:name="com.mqq.activecufe.KindActivity"
+            ></activity>
+        <activity 
+             android:name="com.mqq.activecufe.LilunActivity"></activity>
+         <activity 
+             android:name="com.mqq.activecufe.JieShaoActivity"></activity>
+        <activity 
+             android:name="com.mqq.activecufe.TuijianActivity"></activity>
+        <activity 
+             android:name="com.mqq.activecufe.ResultActivity"></activity>
+        <activity 
+             android:name="com.mqq.activecufe.XingquActivity"></activity>
+         <activity 
+             android:name="com.mqq.activecufe.JieShaoActivity2"></activity>
+          <activity 
+             android:name="com.mqq.activecufe.XueshuActivity"></activity>
+          <activity 
+             android:name="com.mqq.activecufe.JieShaoActivity3"></activity>
+        <activity 
+             android:name="com.mqq.activecufe.ShiyongActivity"></activity>
+         <activity 
+             android:name="com.mqq.activecufe.TuijianJieActivity"></activity>
+       <activity 
+             android:name="com.mqq.activecufe.ShetuanActivity"></activity>
+        <activity 
+             android:name="com.mqq.activecufe.HuizongActivyty"></activity>
+        <activity 
+             android:name="com.mqq.activecufe.PingjiActivity"></activity>
+        <activity 
+             android:name="com.mqq.activecufe.BaituanActivity"></activity>
+        
+       <activity 
+             android:name="com.mqq.activecufe.Pingjia"></activity>
+       
+       <activity android:name="com.mqq.activecufe.JiaoyouActivity"></activity>
+       
+     <activity android:name="com.mqq.activecufe.WomenActivity"></activity>
+     
+  <activity android:name="com.mqq.activecufe.GuanyuActivity"></activity>
+    <activity 
+             android:name="com.mqq.activecufe.YijianActivity"></activity>
+   
+       </application>
+
+</manifest>
